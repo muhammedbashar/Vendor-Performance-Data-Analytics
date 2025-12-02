@@ -1,3 +1,6 @@
+<img width="922" height="827" alt="rootmap png" src="https://github.com/user-attachments/assets/7d9a52d3-d4b9-4794-b4a7-6e32f8e23e42" />
+
+
 📊 Vendor Performance – End-to-End Data Analytics Project
 
 SQL + Python | Complete EDA | Advanced Data Cleaning | LFS-Handled Large Datasets
