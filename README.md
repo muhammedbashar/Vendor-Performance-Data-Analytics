@@ -165,5 +165,4 @@ It follows real company-standard workflow, including database exploration, data 
 
 If you want help or want to discuss analytics projects:
 
-LinkedIn:
-👉 add your LinkedIn link here
+LinkedIn: https://www.linkedin.com/in/muhammed-bashar-b56770328/
