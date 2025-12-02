@@ -45,145 +45,113 @@ Working with large datasets using Git LFS
 
 End-to-end project workflow similar to real industry analytics
 
-📁 Project Structure
-""" 
-Vendor-Performance-Data-Analytics/
-│
-├── datasets/
-│   ├── csv-files/               # Raw and processed CSV files
-│   │   ├── begin_iventory.csv          
-│   │   ├── end_inventory.csv            
-│   │   ├── purchase_prices.csv
-│   │   ├── purchases.csv               # LFS-tracked large file
-│   │   ├── sales.csv                   # LFS-tracked large file
-│   │   └── vendor_invoice.csv
-│
-├── docs/
-│   ├── data-log/
-|        ├── ingestion.log
-|        └── get_vendor_summary.log
-│   ├── Top 10 vendors and brands by sales.png 
-|   ├── Top 10 vendors purchase contributions.png   
-|   ├── brands for promotional or pricing adjustments.png 
-|   ├── confidence interval comparison between Top vs Low vendors.png 
-|   ├── correlation heatmap.png 
-|   ├── impact of bulk purchasing in unit price.png  
-│   └── vendor contributions.png to total purchase 
-│
-├── scripts/
-│   ├── vs codes_1.ipynb                     # extract and load all datasets into SQL database
-│   ├── EDA_2.ipynb                          # complete EDA
-│   └── get.vendor_summary_3.ipynb           # inserting cleaned data
-|   └── vendor_perfomance_analysis.ipynb     # advanced analysis
-│
-└── README.md
-"""
+
 🔍 EDA Highlights (Python)
 🔹 Distribution Analysis
 
-Histograms & boxplots for purchase quantity, sales quantity, price, margins
+    Histograms & boxplots for purchase quantity, sales quantity, price, margins
 
-Detected outliers due to high-value purchases & premium products
+    Detected outliers due to high-value purchases & premium products
 
 🔹 Summary Statistics & Data Quality Checks
 
-Found negative gross profit (loss)
+    Found negative gross profit (loss)
 
-Found invalid profit-margin values due to division by zero
+    Found invalid profit-margin values due to division by zero
 
-Fixed inconsistent data types (e.g., volume as a string)
+    Fixed inconsistent data types (e.g., volume as a string)
 
 🔹 Correlation Heatmap
 
-Strong correlation between purchase qty ↔ sales qty
+    Strong correlation between purchase qty ↔ sales qty
 
-Helps evaluate inventory movement efficiency
+    Helps evaluate inventory movement efficiency
 
 🔹 Vendor Performance Indicators
 
-Total purchase value by vendor
+    Total purchase value by vendor
 
 Average purchase price trends
 
-Top & bottom-performing vendors
+    Top & bottom-performing vendors
 
-Vendor-wise product movement
+    Vendor-wise product movement
 
 📊 Visualisations Included
 
-Histograms
+    Histograms
 
-Box Plots
+    Box Plots
 
-Heatmap
+    Heatmap
 
-Vendor-wise purchase analysis
+    Vendor-wise purchase analysis
 
-Product performance distribution
+    Product performance distribution
 
-Outlier detection graphs
+    Outlier detection graphs
 
-Time-based purchase trends
+    Time-based purchase trends
 
 (All visuals are generated in Python using Pandas, Matplotlib & Seaborn.)
 
 🛠️ Tools & Technologies
-Tool	Usage
-MySQL	Raw data EDA, cleaning, aggregations
-Python (Pandas)	Deep EDA, feature engineering
-Matplotlib & Seaborn	Visualisations
-Git LFS	Handling large CSV datasets
-GitHub	Project hosting
+  Tool	Usage
+      MySQL	Raw data EDA, cleaning, aggregations
+      Python (Pandas)	Deep EDA, feature engineering
+      Matplotlib & Seaborn	Visualisations
+      Git LFS	Handling large CSV datasets
+      GitHub	Project hosting
 🚀 How to Use This Repository
-1️⃣ Clone the repo:
-git clone https://github.com/muhammedbashar/Vendor-Performance-Data-Analytics.git
+  1️⃣ Clone the repo:
+    git clone https://github.com/muhammedbashar/Vendor-Performance-Data-Analytics.git
 
-2️⃣ Install required Python libraries:
-pip install pandas matplotlib seaborn
+  2️⃣ Install required Python libraries:
+    pip install pandas matplotlib seaborn
 
-3️⃣ Run the Python notebooks:
+  3️⃣ Run the Python notebooks:
 
-Open any .ipynb file in:
+    Open any .ipynb file in:
 
-Jupyter Notebook
+    Jupyter Notebook
 
-VS Code
+    VS Code
 
-Jupyter Lab
+    Jupyter Lab
 
 📌 About the Dataset
 
-This project uses:
+  This project uses:
 
-begin_iventory.csv
+    begin_iventory.csv
 
-end_inventory.csv
+    end_inventory.csv
 
-purchase_prices.csv
+    purchase_prices.csv
 
-purchases.csv
+    purchases.csv
 
-sales.csv
+    sales.csv
 
-vendor_invoice.csv
+    vendor_invoice.csv
 
-Large CSV files are tracked using Git LFS.
+  Large CSV files are tracked using Git LFS.
 
 ⭐ Key Learning
 
-This project shows how actual companies perform:
+  This project shows how actual companies perform:
 
-Multi-stage EDA
+    Multi-stage EDA
 
-SQL + Python integrated workflows
+    SQL + Python integrated workflows
 
-Vendor performance evaluation
+    Vendor performance evaluation
 
-Proper dataset structuring
+    Proper dataset structuring
 
-Professional EDA visualisations
+    Professional EDA visualisations
 
-Handling large files in GitHub
+    Handling large files in GitHub
 
 📬 Contact
 
