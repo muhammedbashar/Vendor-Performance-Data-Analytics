@@ -96,13 +96,15 @@ It follows real company-standard workflow, including database exploration, data 
   (All visuals are generated in Python using Pandas, Matplotlib & Seaborn.)
 
 🛠️ Tools & Technologies
-  Tool	Usage
+  Tool	Usage :
       -> MySQL	Raw data EDA, cleaning, aggregations
       -> Python (Pandas)	Deep EDA, feature engineering
       -> Matplotlib & Seaborn	Visualisations
       -> Git LFS	Handling large CSV datasets
       -> GitHub	Project hosting
 🚀 How to Use This Repository
+
+
  1️⃣ Clone the repo: git clone https://github.com/muhammedbashar/Vendor-Performance-Data-Analytics.git
 
  2️⃣ Install required Python libraries:
